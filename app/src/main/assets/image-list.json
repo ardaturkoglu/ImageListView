@@ -1,98 +1,100 @@
-[
+{
+  "imageList": [
     {
-        "imageId": "1",
-        "imageUrl": "https://db62cod6cnasq.cloudfront.net/user-media/0/image1-500kb.png"
-    },
-    {
-        "imageId": "2",
-        "imageUrl": "https://db62cod6cnasq.cloudfront.net/user-media/0/image2-500kb.png"
+      "imageId": "1",
+      "imageUrl": "https://db62cod6cnasq.cloudfront.net/user-media/0/image1-500kb.png"
     },
     {
-        "imageId": "3",
-        "imageUrl": "https://db62cod6cnasq.cloudfront.net/user-media/0/image3-500kb.png"
+      "imageId": "2",
+      "imageUrl": "https://db62cod6cnasq.cloudfront.net/user-media/0/image2-500kb.png"
     },
     {
-        "imageId": "4",
-        "imageUrl": "https://db62cod6cnasq.cloudfront.net/user-media/0/image4-500kb.png"
+      "imageId": "3",
+      "imageUrl": "https://db62cod6cnasq.cloudfront.net/user-media/0/image3-500kb.png"
     },
     {
-        "imageId": "5",
-        "imageUrl": "https://db62cod6cnasq.cloudfront.net/user-media/0/image1-1mb.png"
+      "imageId": "4",
+      "imageUrl": "https://db62cod6cnasq.cloudfront.net/user-media/0/image4-500kb.png"
     },
     {
-        "imageId": "6",
-        "imageUrl": "https://db62cod6cnasq.cloudfront.net/user-media/0/image2-1mb.png"
+      "imageId": "5",
+      "imageUrl": "https://db62cod6cnasq.cloudfront.net/user-media/0/image1-1mb.png"
     },
     {
-        "imageId": "7",
-        "imageUrl": "https://db62cod6cnasq.cloudfront.net/user-media/0/image3-1mb.png"
+      "imageId": "6",
+      "imageUrl": "https://db62cod6cnasq.cloudfront.net/user-media/0/image2-1mb.png"
     },
     {
-        "imageId": "8",
-        "imageUrl": "https://db62cod6cnasq.cloudfront.net/user-media/0/image4-1mb.png"
+      "imageId": "7",
+      "imageUrl": "https://db62cod6cnasq.cloudfront.net/user-media/0/image3-1mb.png"
     },
     {
-        "imageId": "9",
-        "imageUrl": "https://db62cod6cnasq.cloudfront.net/user-media/0/image1-1_5mb.png"
+      "imageId": "8",
+      "imageUrl": "https://db62cod6cnasq.cloudfront.net/user-media/0/image4-1mb.png"
     },
     {
-        "imageId": "10",
-        "imageUrl": "https://db62cod6cnasq.cloudfront.net/user-media/0/image2-1_5mb.png"
+      "imageId": "9",
+      "imageUrl": "https://db62cod6cnasq.cloudfront.net/user-media/0/image1-1_5mb.png"
     },
     {
-        "imageId": "11",
-        "imageUrl": "https://db62cod6cnasq.cloudfront.net/user-media/0/image3-1_5mb.png"
+      "imageId": "10",
+      "imageUrl": "https://db62cod6cnasq.cloudfront.net/user-media/0/image2-1_5mb.png"
     },
     {
-        "imageId": "12",
-        "imageUrl": "https://db62cod6cnasq.cloudfront.net/user-media/0/image4-1_5mb.png"
-    },
-    { 
-        "imageId": "13",
-        "imageUrl": "https://db62cod6cnasq.cloudfront.net/user-media/0/image1-2mb.png"
+      "imageId": "11",
+      "imageUrl": "https://db62cod6cnasq.cloudfront.net/user-media/0/image3-1_5mb.png"
     },
     {
-        "imageId": "14",
-        "imageUrl": "https://db62cod6cnasq.cloudfront.net/user-media/0/image2-2mb.png"
+      "imageId": "12",
+      "imageUrl": "https://db62cod6cnasq.cloudfront.net/user-media/0/image4-1_5mb.png"
     },
     {
-        "imageId": "15",
-        "imageUrl": "https://db62cod6cnasq.cloudfront.net/user-media/0/image3-2mb.png"
+      "imageId": "13",
+      "imageUrl": "https://db62cod6cnasq.cloudfront.net/user-media/0/image1-2mb.png"
     },
     {
-        "imageId": "16", 
-        "imageUrl": "https://db62cod6cnasq.cloudfront.net/user-media/0/image4-2mb.png"
-    },
-    { 
-        "imageId": "17",
-        "imageUrl": "https://db62cod6cnasq.cloudfront.net/user-media/0/image1-3mb.png"
+      "imageId": "14",
+      "imageUrl": "https://db62cod6cnasq.cloudfront.net/user-media/0/image2-2mb.png"
     },
     {
-        "imageId": "18",
-        "imageUrl": "https://db62cod6cnasq.cloudfront.net/user-media/0/image2-3mb.png"
+      "imageId": "15",
+      "imageUrl": "https://db62cod6cnasq.cloudfront.net/user-media/0/image3-2mb.png"
     },
     {
-        "imageId": "19",
-        "imageUrl": "https://db62cod6cnasq.cloudfront.net/user-media/0/image3-3mb.png"
+      "imageId": "16",
+      "imageUrl": "https://db62cod6cnasq.cloudfront.net/user-media/0/image4-2mb.png"
     },
     {
-        "imageId": "20",
-        "imageUrl": "https://db62cod6cnasq.cloudfront.net/user-media/0/image4-3mb.png"
-    },
-    { 
-        "imageId": "21",
-        "imageUrl": "https://db62cod6cnasq.cloudfront.net/user-media/0/image1-5mb.png"
+      "imageId": "17",
+      "imageUrl": "https://db62cod6cnasq.cloudfront.net/user-media/0/image1-3mb.png"
     },
     {
-        "imageId": "22",
-        "imageUrl": "https://db62cod6cnasq.cloudfront.net/user-media/0/image2-5mb.png"
+      "imageId": "18",
+      "imageUrl": "https://db62cod6cnasq.cloudfront.net/user-media/0/image2-3mb.png"
     },
     {
-        "imageId": "23",
-        "imageUrl": "https://db62cod6cnasq.cloudfront.net/user-media/0/image3-5mb.png"
+      "imageId": "19",
+      "imageUrl": "https://db62cod6cnasq.cloudfront.net/user-media/0/image3-3mb.png"
     },
     {
-        "imageId": "24",
-        "imageUrl": "https://db62cod6cnasq.cloudfront.net/user-media/0/image4-5mb.png"
+      "imageId": "20",
+      "imageUrl": "https://db62cod6cnasq.cloudfront.net/user-media/0/image4-3mb.png"
+    },
+    {
+      "imageId": "21",
+      "imageUrl": "https://db62cod6cnasq.cloudfront.net/user-media/0/image1-5mb.png"
+    },
+    {
+      "imageId": "22",
+      "imageUrl": "https://db62cod6cnasq.cloudfront.net/user-media/0/image2-5mb.png"
+    },
+    {
+      "imageId": "23",
+      "imageUrl": "https://db62cod6cnasq.cloudfront.net/user-media/0/image3-5mb.png"
+    },
+    {
+      "imageId": "24",
+      "imageUrl": "https://db62cod6cnasq.cloudfront.net/user-media/0/image4-5mb.png"
     }
-]
+  ]
+}
