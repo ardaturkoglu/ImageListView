@@ -19,7 +19,7 @@ import com.example.imagelistview.model.ImageList
 class ImageListAdapter(private val imageDataSet: ImageList?) :
     RecyclerView.Adapter<ImageListAdapter.ImageListViewHolder>() {
 
-    val loadingTimes: MutableList<Long>? = null
+    val loadingTimes: MutableList<Long> = mutableListOf()
 
     // Create new views (invoked by the layout manager)
     override fun onCreateViewHolder(viewGroup: ViewGroup, viewType: Int): ImageListViewHolder {
@@ -75,14 +75,12 @@ class ImageListAdapter(private val imageDataSet: ImageList?) :
                                 "Image Loading Time",
                                 "Image Loading Time of No: ${itemImage?.imageId}: ${end - begin} milliseconds"
                             )
-                            loadingTimes?.add(end-begin)
+                            loadingTimes.add(end-begin)
                             return false
                         }
                     })
                     .into(simpleImgView)
             }
         }
-
     }
-
 }

@@ -12,5 +12,4 @@ class ImageListView(context:Context,attributeSet: AttributeSet): RecyclerView(co
     }
 
     fun getLoadingTimes() = (adapter as ImageListAdapter).loadingTimes
-
 }
