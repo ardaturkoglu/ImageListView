@@ -1,31 +1,26 @@
 package com.example.imagelistview.network
 
+import okhttp3.OkHttpClient
+import okhttp3.logging.HttpLoggingInterceptor
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 
 
-class RetrofitClient private constructor() {
-    private val myApi: Api
-    fun getMyApi(): Api {
-        return myApi
-    }
-
-    companion object {
-        @get:Synchronized
-        var instance: RetrofitClient? = null
-            get() {
-                if (field == null) {
-                    field = RetrofitClient()
-                }
-                return field
-            }
-            private set
-    }
+class RetrofitClient {
+    private val myApi: ApiModel
 
     init {
-        val retrofit: Retrofit = Retrofit.Builder().baseUrl(Api.BASE_URL)
-            .addConverterFactory(GsonConverterFactory.create())
+        val client: OkHttpClient = OkHttpClient.Builder()
+            .addInterceptor(HttpLoggingInterceptor())
             .build()
-        myApi = retrofit.create(Api::class.java)
+        val retrofit: Retrofit = Retrofit.Builder().baseUrl(ApiModel.BASE_URL)
+            .addConverterFactory(GsonConverterFactory.create())
+            .client(client)
+            .build()
+        myApi = retrofit.create(ApiModel::class.java)
+    }
+
+    fun getMyApi(): ApiModel {
+        return myApi
     }
 }
