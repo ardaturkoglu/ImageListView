@@ -15,9 +15,22 @@
             android:padding="8dp"
             android:orientation="vertical"
             app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+            tools:listitem="@layout/item_simple_image"
             tools:itemCount="15">
 
         </com.example.imagelistview.view.ImageListView>
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/sendRequestFab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:srcCompat = "@drawable/ic_baseline_send_24"
+            app:backgroundTint="@color/white"
+            android:elevation="16dp"
+            android:layout_margin="8dp"
+            android:text="Send Image Loading Times"
+            android:contentDescription="Image Loading Times" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>
