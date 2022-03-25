@@ -6,9 +6,9 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".presentation.MainActivity">
+        tools:context=".DemoPage">
 
-        <com.example.imagelistview.view.ImageListView
+        <com.example.imagelistview.view.presentation.ImageListView
             android:id="@+id/imageListView"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -18,7 +18,7 @@
             tools:listitem="@layout/item_simple_image"
             tools:itemCount="15">
 
-        </com.example.imagelistview.view.ImageListView>
+        </com.example.imagelistview.view.presentation.ImageListView>
         <com.google.android.material.floatingactionbutton.FloatingActionButton
             android:id="@+id/sendRequestFab"
             android:layout_width="wrap_content"

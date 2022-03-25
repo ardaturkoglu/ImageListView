@@ -1,7 +1,7 @@
-package com.example.imagelistview.util
+package com.example.imagelistview.view.util
 
 import android.content.Context
-import com.example.imagelistview.model.ImageList
+import com.example.imagelistview.view.model.ImageList
 import com.google.gson.Gson
 import java.io.IOException
 

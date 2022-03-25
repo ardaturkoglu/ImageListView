@@ -7,7 +7,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:padding="8dp"
-        tools:context=".presentation.MainActivity">
+        tools:context=".DemoPage">
     <ImageView
         android:id="@+id/simple_img_view"
         android:layout_width="wrap_content"

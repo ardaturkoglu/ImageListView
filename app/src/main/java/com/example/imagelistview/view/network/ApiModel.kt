@@ -1,6 +1,5 @@
-package com.example.imagelistview.network
+package com.example.imagelistview.view.network
 
-import retrofit2.Response
 import okhttp3.ResponseBody
 import retrofit2.Call
 import retrofit2.http.Body

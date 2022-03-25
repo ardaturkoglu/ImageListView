@@ -1,4 +1,4 @@
-package com.example.imagelistview.network
+package com.example.imagelistview.view.network
 
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor

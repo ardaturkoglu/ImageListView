@@ -1,6 +1,5 @@
-package com.example.imagelistview.model
+package com.example.imagelistview.view.model
 
-import android.media.Image
 import com.google.gson.annotations.SerializedName
 
 data class ImageDataModel(

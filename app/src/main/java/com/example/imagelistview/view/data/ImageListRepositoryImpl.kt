@@ -1,6 +1,6 @@
-package com.example.imagelistview.data
+package com.example.imagelistview.view.data
 
-import com.example.imagelistview.network.ApiModel
+import com.example.imagelistview.view.network.ApiModel
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 
