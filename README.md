@@ -1,6 +1,6 @@
 # **ImageListView**
 A custom View extends from RecylerView. ImageListView takes list of images and logs the loading times of the images. Implemented in Kotlin.
-## ImageListView Methods (from `ImageListView.kt`):
+## ImageListView Methods (from [ImageListView](/app/src/main/java/com/example/imageListView/view/presentation/ImageListView.kt)):
 
 * #### Set image list from JSON file
 
@@ -37,10 +37,18 @@ In `build.gradle(app)`:
 
 ```
 ## ImageListView Implementation
+### Get Image list
+JsonParser (from [JsonParser](/app/src/main/java/com/example/imageListView/view/util/JsonParser.kt)) used to parse JSON data and sets the adapter of the view.
+```kotlin
+  fun setImageListFromJson(fileName: String) {
+        imageList = getJsonDataFromAsset(context, fileName)
+        adapter = ImageListAdapter(imageList)
+    }
+  ```
 ### Load Image from Url:
 Glide used to load image from url. Also,shows placeholder when loading, it loads image from cache if it exits.
 Glide can be accessed thourough </br>
-`loadImageWithGlide(ctx: Context,itemImageDataModel: ImageDataModel?,loadingTimes: MutableList<Long> ?)` in(`Glide.kt`) </br>
+`loadImageWithGlide(ctx: Context,itemImageDataModel: ImageDataModel?,loadingTimes: MutableList<Long> ?)` (in [Glide](/app/src/main/java/com/example/imageListView/view/util/Glide.kt)) </br>
 to load images into **ImageListView** and logs the loading time of the images. Used in `ImageListAdapter.ImageLisViewHolder.kt` to load image items.
 ```kotlin
     fun ImageListAdapter.ImageListViewHolder.loadImageWithGlide(
@@ -109,7 +117,7 @@ Base url : [httbin.org](https://httpbin.org/)
 
 
 Reach api service from `RetrofitClient().getMyApi()`
-#### Submit image list loading times(in `ImageListView.kt`)
+#### Submit image list loading times(from [ImageListView](/app/src/main/java/com/example/imageListView/view/presentation/ImageListView.kt))
 ```kotlin
 fun submitImageListLoadingTimes() {
         //Send request
