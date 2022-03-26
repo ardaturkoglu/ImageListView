@@ -1,5 +1,5 @@
 # **ImageListView**
-A custom View extends from RecylerView. ImageListView takes list of images and logs the loading times of the images. Implemented in Kotlin.
+A custom View extends from RecylerView. ImageListView takes list of images , logs and send request the loading times of the images. Implemented in Kotlin.
 ## ImageListView Methods (from [ImageListView](/app/src/main/java/com/example/imagelistview/view/presentation/ImageListView.kt)):
 
 * #### Set image list from JSON file
