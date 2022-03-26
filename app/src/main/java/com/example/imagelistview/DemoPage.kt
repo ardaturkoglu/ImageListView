@@ -30,7 +30,7 @@ class DemoPage : AppCompatActivity() {
     private fun setSubmitButtonOnClickListener (imageListView: ImageListView){
         val submitButton = getSubmitButton()
         submitButton.setOnClickListener {
-            imageListView.submitImageList()
+            imageListView.submitImageListLoadingTimes()
         }
     }
     private fun getImageListView() = binding.imageListView

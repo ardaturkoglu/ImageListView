@@ -30,7 +30,7 @@ class ImageListView(context: Context, attributeSet: AttributeSet) :
 
     private fun getLoadingTimes() = (adapter as ImageListAdapter).loadingTimes
 
-    fun submitImageList() {
+    fun submitImageListLoadingTimes() {
         //Send request
         runBlocking {
             showToast(imageListRepository.postLoadingTimes(getLoadingTimes()))
