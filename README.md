@@ -135,7 +135,7 @@ To use ImageListView :
 //Get imageListView
         val imageListView = getImageListView()
 ```
-* To use ImageListView :
+* To use ImageListView : </br>
   Set button click listener with ImageListView's `submitImageListLoadingTimes()`
 ```kotlin
 private fun setSubmitButtonOnClickListener (imageListView: ImageListView){
