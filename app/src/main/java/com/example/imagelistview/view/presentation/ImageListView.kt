@@ -9,6 +9,9 @@ import com.example.imagelistview.view.data.ImageListRepositoryImpl
 import com.example.imagelistview.view.model.ImageList
 import com.example.imagelistview.view.network.RetrofitClient
 import com.example.imagelistview.view.util.getJsonDataFromAsset
+import kotlinx.coroutines.CoroutineScope
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.launch
 import kotlinx.coroutines.runBlocking
 
 class ImageListView(context: Context, attributeSet: AttributeSet) :
@@ -32,7 +35,7 @@ class ImageListView(context: Context, attributeSet: AttributeSet) :
 
     fun submitImageListLoadingTimes() {
         //Send request
-        runBlocking {
+        CoroutineScope(Dispatchers.Main).launch {
             showToast(imageListRepository.postLoadingTimes(getLoadingTimes()))
         }
     }
