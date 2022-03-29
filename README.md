@@ -120,11 +120,11 @@ Reach api service from `RetrofitClient().getMyApi()`
 #### Submit image list loading times(from [ImageListView](/app/src/main/java/com/example/imagelistview/view/presentation/ImageListView.kt))
 ```kotlin
 fun submitImageListLoadingTimes() {
-        //Send request
-        runBlocking {
-            showToast(imageListRepository.postLoadingTimes(getLoadingTimes()))
-        }
-    }
+  //Send request
+  CoroutineScope(Dispatchers.Main).launch {
+    showToast(imageListRepository.postLoadingTimes(getLoadingTimes()))
+  }
+}
 ```
 ## DemoPage([DemoPage](/app/src/main/java/com/example/imagelistview/DemoPage.kt))
 A sample Activity that has ImageListView and Button that calls `submitImageListLoadingTimes()`.
